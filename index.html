@@ -56,8 +56,10 @@
     		    jj++;
     		}
     		document.getElementById("output").innerHTML = "";
+		ttt = 1;
     		for (var i in dmass) {
-    		    document.getElementById("output").innerHTML += i+": "+dmass[i]+". A = "+amass[i]+". B = "+bmass[i]+".<br>";
+    		    document.getElementById("output").innerHTML += ttt+": "+dmass[i]+". A = "+amass[i]+". B = "+bmass[i]+".<br>";
+	            ttt++;
     	    }
     	}
     </script>
